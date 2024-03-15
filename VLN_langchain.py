@@ -15,7 +15,7 @@ openai_api=""
 dir_path=os.path.dirname(os.path.abspath(__file__))
 output_txt="output.txt"
 output = open(os.path.join(dir_path,output_txt),'w')
-navigation_path=r"F:data\local_knowledge_base.json"
+navigation_path=r"F:data\local_knowledge_base.txt"
 navigation_list=[]
 with jsonlines.open(navigation_path,'r') as f:
     data = [obj for obj in f]
