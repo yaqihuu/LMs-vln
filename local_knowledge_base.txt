@@ -1,162 +1,300 @@
-{"navigation_text": "instructions:下个路口右转并沿与交通相同的方向行走。 直走穿过红绿灯，很快就会经过右侧前方建筑物上的一面旗帜。 在旗帜后的下一个路口向左行驶。 前方，经过右侧建筑物上排成一排的多面旗帜，左侧街道上有一大堆垃圾。 直行经过右侧的公交车站停车。
-observation: 一辆车以15m/s的速度在你前面13.4m处行驶。thought: 根据我的期望速度25m/s，我此时应该执行的action是换道。observation: 路口就在你的前面;  thought: 根据指令要求我此时应该执行的action是右转。observation: 一面旗帜就在你的右侧;  thought: 根据指令要求我此时应该执行的action是前进。observation: 一个公交车站就在你的右侧;  thought: 根据指令要求我此时应该执行的action是停车。
+{"navigation_text": "instructions: 直走穿过红绿灯，很快就会经过右侧前方建筑物上的一面旗帜。 在旗帜后的下一个路口向转行驶。直行经过右侧的公交车站停车。
+observation: 路口就在你的前面;  thought: 根据对指令和观察的分析，我应该执行action：直行。observation: 一面旗帜就在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 第一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个公交车站就在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action：停车。
 
 {"navigation_text": "instructions: 转弯，脚手架就在你的左边，然后随着车流到下一个拐角，然后右转。当你转弯时，道路两侧有橙色的锥体可供通过。继续前进，穿过 第一个路口，但在第二个路口右转。当你转弯时，左边有一座带有黑色栅栏的大型红砖建筑。经过那座建筑，经过它后面左边的铁丝网栅栏，继续经过路标上的旗帜 向右，直到你刚刚从左右脚手架前面开始。左边有两棵树，一棵是左边脚手架开始的地方，第二棵是从左边脚手架开始的地方。
-observation: 脚手架就在你的左边; thought: 根据指令要求我此时应该执行的action是前进。observation: 道路两侧有橙色的锥体; thought: 根据指令要求我此时应该执行的action是前进。observation: 第一个路口; thought: 根据指令要求我此时应该执行的action是前进。observation: 第二个路口; thought: 根据指令要求我此时应该执行的action是右转。observation: 右边有一座带有黑色栅栏的大型红砖建筑; thought: 根据指令要求我此时应该执行的action是掉头。observation: 左边有一座带有黑色栅栏的大型红砖建筑; thought: 根据指令要求我此时应该执行的action是前进。observation: 左边有两棵; thought: 根据指令要求我此时应该执行的action是停止。"}
+observation: 脚手架就在你的左边; thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 道路两侧有橙色的锥体; thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 第一个路口; thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 第二个路口; thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 右边有一座带有黑色栅栏的大型红砖建筑; thought: 根据对指令和观察的分析，我应该执行action：掉头。observation: 左边有一座带有黑色栅栏的大型红砖建筑; thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 左边有两棵; thought: 根据对指令和观察的分析，我应该执行action：停止。"}
 
 {"navigation_text": "instructions: 调整好自己的方向，这样你就可以看到与 4 车道道路上的交通相同的方向。沿着这条路行驶，直到第一个十字路口。左转，沿着这条街道顺着车流行驶。你会看到一条黑白条纹 当您沿着街道行驶时，您右侧的遮阳篷。继续前行，经过右侧的停车楼，直到您位于一个大型开放式红色/橙色垃圾箱旁边。
-observation: 第一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 遮阳篷在右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 停车楼在右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 橙色垃圾箱在右侧;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 第一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 遮阳篷在右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 停车楼在右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 橙色垃圾箱在右侧;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 您将从顺着车流开始。 在第一个路口左转并继续前进。 在下一个路口左转。 您将经过右侧的红色遮阳篷。 然后在你的右边你会看到一面墙上有很多彩色的涂鸦。
-observation: 一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一个红色遮阳篷在右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一面涂鸦墙在左侧;  thought: 根据指令要求我此时应该执行的action是 掉头。observation: 一面涂鸦墙在右侧;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个红色遮阳篷在右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一面涂鸦墙在左侧;  thought: 根据对指令和观察的分析，我应该执行action： 掉头。observation: 一面涂鸦墙在右侧;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 确定自己的方向，以便与交通方向保持一致。 直走3个路口。 继续前进，过了第三个路口，您应该会看到一个白色背景和红色圆点的商店标志以及红白靶心目标。 继续直行经过这家商店，在下一个路口左转。 穿过一个十字路口，停在左侧带有紫色锯齿形图案的墙后面。
-observation: 一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个白色背景商店标志在前面;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一个有图案的墙在左侧;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个白色背景商店标志在前面;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个有图案的墙在左侧;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 沿着与交通相同的方向行驶。 向前行驶到第一个路口。 左转。 您将随着车流行驶。 在到达第一个人行横道之前，在十字路口前不久停车。
-observation: 一个十字路口在前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一个人行横道在前面;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 一个十字路口在前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个人行横道在前面;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 调整好自己的位置，以便您沿着交通方向行驶，带有蓝色/绿色背景和白色字母标志的玻璃墙商店就在您的右侧。 顺着车流行驶，直到到达第二个十字路口。 如果您的右侧有一家白色背景和红色字母标志的商店，并且一辆白色面包车停在该商店前面，则您位于右侧十字路口。
-observation: 一个玻璃墙商店在你的右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个十字路口在你的前面;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个白色背景的商店在你的右侧;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 一个玻璃墙商店在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你的前面;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个白色背景的商店在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 当您向前移动时，您会看到右侧有脚手架，然后左侧有脚手架。 继续前进。 经过建筑区域，到达右侧一座棕褐色建筑上有长窗户的建筑。
-observation: 一个脚手架在你的右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个脚手架在你的左侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一座棕褐色建筑在你的右侧;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 一个脚手架在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个脚手架在你的左侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一座棕褐色建筑在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 首先面向街道，这样您的右侧就会有一座带有红色遮阳篷的建筑物。 向前走，直到到达第一个四向交叉路口，然后尽可能左转。 您应该会看到前面有几辆出租车。 沿着街道走，走向有柱子的建筑。 您会在左侧看到带有蓝色布料的障碍物； 当您到达护栏的远端并且正好位于有几个红绿灯的人行横道前面时，请停下来。 向左转，您应该会看到人行道上有几根银色的柱子。
-observation: 一座带有红色遮阳篷的建筑物在你的右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一十字路口在你的前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一个十字路口在你的前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 蓝色布料的障碍物在你的左侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一人行横道在你的前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 银色的柱子你的前面;  thought: 根据指令要求我此时应该执行的action是 停车。
+observation: 一座带有红色遮阳篷的建筑物在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一十字路口在你的前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个十字路口在你的前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 蓝色布料的障碍物在你的左侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一人行横道在你的前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 银色的柱子你的前面;  thought: 根据对指令和观察的分析，我应该执行action： 停车。
 
 {"navigation_text": "instructions: 调整好位置，使地铁入口位于您的左侧。 前往十字路口左转。 您将忽略右转，并在环绕路缘的脚手架处左转。 你的左边是一排蓝色自行车。
-observation: 一地铁入口在你的右侧;  thought: 根据指令要求我此时应该执行的action是 掉头。observation: 一地铁入口在你的左侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个十字路口在你的前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一排蓝色自行车你的左边;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 一地铁入口在你的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 掉头。observation: 一地铁入口在你的左侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你的前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一排蓝色自行车你的左边;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 调整好自己的方向，顺着车流行驶，儿童游乐场就在您的右侧，向前行驶到下一个路口，然后向左转，您应该会在右侧看到一个公共汽车站，继续向前行驶到下一个路口，然后再向左转，您应该看到右侧有一座破旧的建筑物并停下来。
-observation: 儿童游乐场就在您的右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一个公共汽车站在您的右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 左转。observation: 一座破旧的建筑物在您的右侧;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 儿童游乐场就在您的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个公共汽车站在您的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一座破旧的建筑物在您的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 对齐自己，使蓝色自行车位于您的左侧。 前往十字路口右转。 很快你就会再做一次右转。 沿着这条街走，你会看到大量蓝色自行车排成一排。 停在第五排前面。
-observation: 蓝色自行车在您的左侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 十字路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 右转。observation: 十字路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 右转。observation: 大量蓝色自行车在您的前面;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 蓝色自行车在您的左侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 十字路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 十字路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 大量蓝色自行车在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 对齐自己，使脚手架位于您的左侧，壁画位于您的右侧。 前往第一个路口右转。 您将沿着一条相当长的街道行驶，在下一个十字路口右转。 在右侧出现的棕褐色/棕色楼梯处停下来。
-observation: 脚手架在您的左侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 右转。observation: 一个十字路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 右转。observation: 一个棕色楼在您的右侧;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 脚手架在您的左侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个棕色楼在您的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 面向停放车辆行驶的方向。 您会在左侧看到橙色和白色的障碍物。 穿过三岔路口并进入下一个三岔路口，这是一个死胡同。 右转继续顺流行驶。 向前走，在下一个路口右转。 您会看到右侧有绿色遮阳篷，左侧有一辆带有红色出租车的大卡车。 向前走，直到您到达大型白色卡车的拐角处，右侧有蓝色字样。
-observation: 橙色和白色的障碍物在您的左侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 三岔路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 三岔路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 右转。observation: 一个路口在您的前面;  thought: 根据指令要求我此时应该执行的action是 右转。observation: 一个绿色遮阳篷在您的右侧;  thought: 根据指令要求我此时应该执行的action是 前进。observation: 一个大型白色卡车在您的前面;  thought: 根据指令要求我此时应该执行的action是 停车。"}
+observation: 橙色和白色的障碍物在您的左侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 三岔路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 三岔路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个绿色遮阳篷在您的右侧;  thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个大型白色卡车在您的前面;  thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 让自己面向正确的交通方向，左边是透明的遮阳篷，右边是绿色的门。 沿着这条街一直走到前面的红绿灯处，然后右转。 现在有一家商店，在您的右侧有一个绿色和白色的标志。 一直向前行驶，在十字路口右转。 你左边有一座棕褐色的建筑，有黑色的栅栏，然后停下来。
-observation: 透明的遮阳篷在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 红绿灯在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一家商店在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一座棕褐色的建筑在您的左边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 透明的遮阳篷在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 红绿灯在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一家商店在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一座棕褐色的建筑在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 逆着车流行驶，在下一个路口左转。 现在跟随车流并在下一个十字路口左转。 向前走，在下一个路口左转。 您将经过右侧的红色横杆。 之后，您的左边将会有一个银色和黑色的消防栓。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个消防栓在您的左边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个消防栓在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 根据交通流量确定自己的方向。 在街区尽头，在第一个路口右转。 在下一个路口再右转，沿着单行道行驶。 经过左侧停着的搬运卡车，然后是右侧停着的棕色送货卡车。 您将接近左侧的停车场入口。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个搬运卡车在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个棕色送货卡车在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个停车场在您的左侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个搬运卡车在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个棕色送货卡车在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个停车场在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 您需要顺着车流行驶，然后在第一个路口右转。 您应该会在右侧看到巨大的红色横幅。 沿着这条路走直到下一个路口，然后再右转。 你应该沿着一条树木悬垂的狭窄道路行驶。 走到建筑障碍处，公园就在你的右边。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个红色横幅在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个公园在您的右边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个红色横幅在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个公园在您的右边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 沿着右手边的施工路段行驶。前行两个街区（街道尽头）到第二个红绿灯，然后右转。您的左侧将有施工路段，落地后会在一个标志前放松 在您的右手边，大约沿着这条街的一半，在您到达标志之前，右侧会有一幅多色壁画，上面有多种颜色和一些文字。
-observation: 红绿灯在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 施工路段在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个标志在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一幅多色壁画在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 红绿灯在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 施工路段在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个标志在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一幅多色壁画在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 跟随车流并在第一个路口左转。 向前走，在下一个路口左转。 您的右侧将会有一个黄色的行人标志。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个行人标志在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个行人标志在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯，使交叉路口位于您身后，且铁丝网位于您的右侧。 沿着街区一直走到拐角处，两侧都是篮球场。 马路对面是一个红绿灯。
-observation: 一个交叉路口在您的后面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个拐角在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个交叉路口在您的后面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个拐角在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 旋转，使红色店面位于您的左侧，然后随着车流向前行驶到前面街道的尽头，然后左转。 黑铁栅栏和公园现在就在您的右侧，直走到前面不久的十字路口，是的，您猜对了，在这里右转。 再往下走一小段路，公园就位于您的右侧。
-observation: 一个红色店面在您的右侧;   thought: 根据指令要求我此时应该执行的action是掉头。observation: 一个红色店面在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个公园在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个公园在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个红色店面在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：掉头。observation: 一个红色店面在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个公园在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个公园在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 您的右侧将有铁丝网围栏和橙色和白色的建筑障碍物，继续直行，最后在下一个路口之前有一个黄色和橙色的大型设备。 在十字路口左转，左边的建筑物上有一个装饰，看起来像一个戴着帽子、留着小胡子的男人。
-observation: 一个白色的建筑障碍物在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个装饰建筑物在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个白色的建筑障碍物在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个装饰建筑物在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯，使您面向与交通相同的方向，然后继续前进。 在第一个红绿灯处右转。 在十字路口中心的第一个红绿灯处停车。
-observation: 一个红绿灯在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。
+observation: 一个红绿灯在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。
 
 {"navigation_text": "instructions: 让公园在您的右侧，直行进入大路并右转。 直走穿过大十字路口。 你的右边有一个公园。 当你到达终点时，你的右边有一座建筑物，里面有一个消防栓，周围有黄色的杆子。
-observation: 一个公园在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个公园在您的右边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一座有黄色的杆子的建筑物在您的右边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个公园在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个公园在您的右边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一座有黄色的杆子的建筑物在您的右边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯以便您可以跟随交通，金属杆障碍物位于您的左侧。 沿着这条路继续前行，穿过前面的十字路口，然后在下一个十字路口右转。 您会在左边看到建筑和美国国旗。 沿着这条路走，尽头附近有一个消防栓。
-observation: 一个金属杆障碍物在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个美国国旗在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个消防栓在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个金属杆障碍物在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个美国国旗在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个消防栓在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 跟随交通到达路口并右转。 穿过下一个路口，到达下一个路口时右转。 您会知道您位于正确的街道上，因为您左边的拐角处将有一栋非常绿色的建筑，继续前进直到您右侧的拐角处将有一栋顶部非常红砖的建筑。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个绿色的建筑在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个红砖的建筑在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个绿色的建筑在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个红砖的建筑在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 对齐自己，使红色脚手架位于您的左侧。 前往第一个路口左转。 您应该看到两侧都有脚手架，左侧有施工路障。 沿着这条路走一段路，直到你看到一辆白色卡车后面有一个红色垃圾箱。 右边的对面应该是广场入口处的两个方形盆栽。
-observation: 一个红色脚手架您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 脚手架您的两侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 两个方形盆栽您的右边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个红色脚手架您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 脚手架您的两侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 两个方形盆栽您的右边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯，使您的行走方向与汽车停放的方向相同。 直走直到下一个路口，然后左转。 沿着街道一直走到下一个十字路口，然后再次左转。 沿着街区走到一半，您会看到街道右侧有一根高高的路灯柱。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个路灯柱在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个路灯柱在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转动自己，以便面对交通。 一个小公园将在您的左边，建筑脚手架将在您的右边，并沿着街道行驶。 继续直行，经过左侧的操场。 在路口右转，经过操场。 沿着这条街走，在下一个十字路口右转。
-observation: 一个小公园在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个操场在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。"}
+observation: 一个小公园在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个操场在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。"}
 
 {"navigation_text": "instructions: 顺着车流进入这个十字路口并右转。 在下一个路口右转。 你的左边会有脚手架。 直走到下一个路口。 您将在前方的铁栅栏上看到两个橙色箭头。
-observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个脚手架在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个铁栅栏在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个脚手架在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个铁栅栏在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 顺着车流行驶，到下一个路口右转。 您的右侧将有海军蓝色遮阳篷。 直走穿过下一个路口。 到下一个路口左转。 您右边的商店有色彩鲜艳的装饰。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个蓝色遮阳篷在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个商店在您的右边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个蓝色遮阳篷在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个商店在您的右边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯，以便您沿着与交通相同的方向行驶。 直行。 在红绿灯处左转。 直行。 在下一个红绿灯处左转。 您会在街道右侧看到一个蓝色遮阳篷。 沿着这条街走。 当你到达街道右侧那栋看起来像金属的、有很多窗户的建筑时停下来。
-observation: 一个红绿灯在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个红绿灯在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个蓝色遮阳篷在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个金属建筑在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个红绿灯在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个红绿灯在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个蓝色遮阳篷在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个金属建筑在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转动身体，面向右侧停放的汽车，然后沿着街道开始行驶。 在路口右转。 您会看到左边有一个用栅栏围起来的大操场，前进右边有一个蓝色的天篷，然后停车。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个大操场在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个蓝色的天篷在您的右边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个大操场在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个蓝色的天篷在您的右边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 如果你在正确的位置，你的右边是一栋大楼，窗户上有一根巨大的拐杖糖。 左边是橙色和白色的建筑障碍。 您需要直行，您会经过左侧的一个红色垃圾箱。 当您到达十字路口时，请左转。 左转后，您将看到右侧有一座带有红色横幅的建筑物。 继续前进，在你的左边是一座灰色的建筑，有拱形窗户和金色的横幅然后停车。
-observation: 橙色和白色的建筑障碍在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个红色垃圾箱在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个十红色横幅的建筑物在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一座灰色的建筑在您的左边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 橙色和白色的建筑障碍在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个红色垃圾箱在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个十红色横幅的建筑物在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一座灰色的建筑在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 与汽车面向同一方向站立，脚手架位于右侧，向前行驶并在十字路口右转。 继续沿着街道行驶，经过围栏区域（右侧停有汽车）后右转。 现在它仍然位于您的右侧。 在到达右侧停车场围栏开口处的两个交通锥之前停下来。
-observation: 脚手架在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 围栏区域在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 停车场围栏在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 脚手架在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 围栏区域在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 停车场围栏在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 顺着车流转弯，在第一个路口右转（这是道路自动转向后的情况。在转弯之前，左边应该有一栋有红色门的建筑物。在进入下一个路口之前停下来。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个红色门的建筑物在您的左边;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个红色门的建筑物在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转向并沿交通方向行驶。在交叉路口右转。 右侧是短剑，左侧是较大剑。 在路口右转。 左边有绿色的遮阳篷。 右边有黑色遮阳篷。 在路口右转。 篮球场在右边。 在到达下一个路口之前，请停车。
-observation: 一个交叉路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个绿色的遮阳篷在您的左边，右边有黑色遮阳篷;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个交叉路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个绿色的遮阳篷在您的左边，右边有黑色遮阳篷;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 确定自己的方向，以便顺着车流行驶。 您的正前方应该有一个十字路口。 2.穿过这个路口，直走一段路。 当您到达下一个路口时，左转。 你的目的地已经很近了。 3. 当您重新定位时，您右侧的交通灯柱上应该贴有一个橙色的方形标志然后停车。
-observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个交通灯柱在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个交通灯柱在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转动自己，使十字路口就在您的前面。 前进直到在十字路口右转。 左侧有橙色和白色的障碍物。 在路口右转。 右侧有红色门的建筑物。前进，右边有一些橙色和白色的障碍物，然后停车。
-observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个红色门的建筑物在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 橙色和白色的障碍物在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个红色门的建筑物在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 橙色和白色的障碍物在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 调整好自己的方向，以便随着车流移动。 直行到下一个路口右转。 在你左边有一个垃圾桶然后停车。
-observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个垃圾桶在您的左边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个垃圾桶在您的左边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯时，您将面对道路左侧的一个绿色垃圾桶，旁边没有其他东西。 沿着那条狭窄的单向路一直走。 您将到达一个十字路口然后左转，右侧有一家带有橙色遮阳篷的商店然后停车。 
-observation: 一个绿色垃圾桶在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是左转。observation: 一个橙色遮阳篷的商店在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个绿色垃圾桶在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：左转。observation: 一个橙色遮阳篷的商店在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 沿着车流行驶，脚手架在您的左侧，继续前进。 在十字路口右转，您的左侧将看到带有红色字母的白色遮阳篷。 顺着车流行驶，经过公交车站，当您在第二个十字路口看到左侧的蓝色遮阳篷时右转。 经过右侧的电话亭，继续前行。 经过右边红色门的大楼后，会有一个公园，经过公园后停下来。
-observation: 一个脚手架在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个白色遮阳篷在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个电话亭在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个电话亭在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个公园在您的右侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个脚手架在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个白色遮阳篷在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个电话亭在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个电话亭在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个公园在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 使自己与车流保持一致，停有汽车和货车的装卸码头应该位于您的右侧。 继续直行到十字路口，然后右转。 直走穿过一个路口，然后你应该跑到第二个不能转弯的路口。 过了这个台阶，你左边的人行道上就会有一个蓝色的邮政信箱然后停车。
-observation: 一个装卸码头在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个蓝色的邮政信箱在您的左侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个装卸码头在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个蓝色的邮政信箱在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 沿着隧道道路随车流移动一小段距离。 很快，你的右边就是灰色墙壁的一小块正方形部分，前进，左侧有一个带有红色字母的白色小标志，经过那个标志后停车。
-observation: 一个灰色墙壁在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个白色小标志在您的左侧;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个灰色墙壁在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个白色小标志在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 调整好位置，让巴士站位于您的左侧。 走到十字路口，然后直走。 当您到达下一个红绿灯时，您会在左侧看到一个游乐场。 再直走。 在接下来的十字路口，像直行一样走到中间，但在到达人行横道之前停下来。
-observation: 一个巴士站在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个红绿灯在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个游乐场在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个人行横道在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个巴士站在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个红绿灯在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个游乐场在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个人行横道在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 面对交通并进入街道。 在路口右转，以便您可以沿着街区的交通行驶。 停车场入口位于您的左侧。继续直行到下个路口停车。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个停车场在您的左侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个停车场在您的左侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯，以便顺着车流行驶，穿过第一个路口，然后在下一个路口右转。 继续向前，在下一个路口右转。 继续前往下一个十字路口，但在进入人行横道之前停下来。
-observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个路口在您的前面;   thought: 根据指令要求我此时应该执行的action是前进。observation: 一个人行横道在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 一个人行横道在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转弯，这样您就可以随着这里的车流行走。 向前走，直到到达十字路口，然后右转。 前往下一个路口并再次右转。 您将位于右侧有建筑的街区， 向前走，直到路上的白字就在你的面前停车。
-observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 建筑的街区在您的右侧;   thought: 根据指令要求我此时应该执行的action是前进。observation: 路上的白字在您的前面;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 建筑的街区在您的右侧;   thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 路上的白字在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 朝交通方向行驶。 在路口右转。 在下一个路口也右转。 转弯后立即停车。 在你的右边，两根杆子之间有一个消防栓。
-observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个十字路口在您的前面;   thought: 根据指令要求我此时应该执行的action是右转。observation: 一个消防栓在您的右边;   thought: 根据指令要求我此时应该执行的action是停车。"}
+observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个十字路口在您的前面;   thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一个消防栓在您的右边;   thought: 根据对指令和观察的分析，我应该执行action：停车。"}
 
 {"navigation_text": "instructions: 转动自己，让橙色和黄色的餐车位于您的左侧。 顺着车流直走。 继续前行，直到到达十字路口并左转。 走一小段距离到另一个十字路口，然后再次左转。 一些建筑路障应该在你的左边，一直走，直到看到一个橙色路障停车。
-observation: 橙色和黄色的餐车在您的左侧; action: 前进。observation: 十字路口在您的前面; action: 左转。observation: 十字路口在您的前面; action: 左转。observation: 建筑路障在您的左边; action: 前进。observation: 一个橙色路障在您的前面; action: 停车。"}
+observation: 橙色和黄色的餐车在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 建筑路障在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个橙色路障在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 从看起来像私人停车场的地方右转。 您的左侧将有一堵挡土墙。 向前走。 您将穿过人行横道并穿过红绿灯。 一直走到只能右转为止。 右转。 现在，您的左侧将有一个交通中间带。 继续前行，直到经过左侧中央隔离区停车。
-observation: 私人停车场在您的前面; action: 右转。observation: 一堵挡土墙在您的左侧; action: 前进。observation: 红绿灯您的前面; action: 前进。observation: 路口您的前面; action: 右转。observation: 一个交通中间带在您的左侧; action: 前进。observation: 一个中央隔离区在您的左侧; action: 停车。"}
+observation: 私人停车场在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一堵挡土墙在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 红绿灯您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 路口您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个交通中间带在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个中央隔离区在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
 {"navigation_text": "instructions: 留在您所在的街道上，转身面向交通方向。 站在那里，看到右边有一个银行。 直行沿着这条狭窄的街道行走，直到到达下一个十字路口。 右转并直走。 您应该立即经过左侧建筑物上的美国国旗。 继续前行，在下一个路口右转并停车。
-observation: 一个银行在您的右边; action: 前进。observation: 一个十字路口在您的前面; action: 右转。observation: 一个美国国旗在您的左侧; action: 前进。observation: 一个路口在您的前面; action: 右转停车。"}
+observation: 一个银行在您的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个美国国旗在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转停车。"}
 
 {"navigation_text": "instructions: 朝倾斜屋顶的建筑物方向走，上面有一个巨大的白色天线。 路口左转。 您可以看到左侧悬挂着美国国旗停车。
-observation: 一个倾斜屋顶的建筑物在您的前面; action: 前进。observation: 一个路口在您的前面; action: 左转。observation: 一个美国国旗在您的左侧; action: 停车。"}
+observation: 一个倾斜屋顶的建筑物在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个美国国旗在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 根据单向街道上的交通情况确定自己的方向。 在街区尽头左转。 在下一个路口左转。 继续沿着街道走一段路，您会看到右侧有两辆并排的餐车，左侧是橙色建筑障碍物的末端然后停车。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个餐车在您的右侧，橙色建筑在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 走到第一个路口并右转。 转弯后，留意右侧。 你会经过左侧的一家剧院，里面有一堆关于侯爵的东西，继续前进当你看到一家银行时停下来（你会稍微超过它）。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一家剧院在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一家剧院在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一家银行在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 调整好位置，使红砖建筑位于您的右侧，然后顺着车流行驶。 在第一个路口右转，不久后又右转。 您将走到这个路口的尽头，然后再右转。 当您到达左侧树木时停下来。
+observation: 一个红砖建筑在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个红砖建筑在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一棵树在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 调整好自己的方向，以便随车流移动。 向前行驶到第一个十字路口，右侧有一座红色建筑物，然后左转。 现在继续前进，经过脚手架，到达下一个十字路口，然后再左转。 现在，您的右侧应该有一面小黑墙，然后停车。
+observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一座红色建筑物在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一面小黑墙在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 随车流移动，右侧有一个垃圾箱，到第一个路口左转。 右手边有一个绿色的店面，直走下一个路口，在下面左转，您会看到一个大的绿色盒子然后停车。
+observation: 一个垃圾箱在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个绿色的店面在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个大的绿色盒子在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 顺着交通往红绿灯方向行驶，在两个停车标志处右转。 在桥下的红绿灯处向右拐，经过黑色栅栏后面右侧的操场，然后穿过人行横道进入红绿灯处的十字路口在路边停车。
+observation: 一个停车标志在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个红绿灯在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个操场在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的后面; thought: 根据对指令和观察的分析，我应该执行action： 停车。
+
+{"navigation_text": "instructions: 在前方交叉路口处右拐。 你的右边应该是一家有红色遮阳篷的商店。 在你的左边应该有几辆停着的警车和相当多的脚手架。向前行驶，穿过您遇到的第一个十字路口左转。
+observation: 一个交叉路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个有红色遮阳篷的商店在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 几辆警车在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。"}
+
+{"navigation_text": "instructions: 调整好自己的方向，让带有蓝色和绿色拱形游乐设施的公园位于您的右侧。 沿着这条街走，直行穿过第一个十字路口，在第二个十字路口右转。 现走到下一个路口并再次右转。 您会在左边看到一棵绿树然后停车。
+observation: 一个公园在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 掉头。observation: 一个公园在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一棵绿树在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一棵绿树在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 背对红色建筑物，稍微走远一点进入十字路口，右转。 您的左边会有一个绿色食品摊。 沿着街道走，经过下一个十字路口。 经过右侧有一个黄色和绿色的果汁摊时停下来。
+observation: 一个红色建筑物在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 掉头。observation: 一个红色建筑物在您的后面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个黄色和绿色的果汁摊在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 跟随车流并靠右行驶进入服务车道。 你会右转。 向前走，然后在下一个路口右转。 你的右边应该有建筑。 继续向前，然后在下一个路口右转。 向前走，到达下一个路口时停下来。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 有建筑在您的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 穿过下一个路口，右侧就会有绿色围栏。 直行穿过下一个十字路口，确保当道路被白色障碍物隔开时，您留在道路的右侧。 沿着右侧的道路行驶，您最终会进入立交桥下方。 大约到下一个立交桥的一半时，您应该会在右侧看到一个孤独的橙色和白色圆锥体。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个白色障碍物在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个立交桥在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个橙色和白色圆锥体在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 在前面路口右转。 直走并在下一个路口右转。 在你的左边是一些橙色的建筑锥体和桶。 您将经过左侧的一个黑色遮阳篷。 然后经过右侧的一个黑色遮阳篷。停在消防栓前。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一些橙色的建筑锥体和桶在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个黑色遮阳篷在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个消防栓在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 你从十字路口中间开始。 右转弯，让您面朝街道，左边有一家带有霓虹灯标志的便利店，右边有一座红黑相间、有很多窗户的建筑。 沿着这条单向街道移动，您将经过街道两侧的一些脚手架，直到您到达十字路口和红绿灯前。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一家带有霓虹灯标志的便利店在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 很多窗户的建筑在您的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一些脚手架在您的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 在第一个路口右转。 您应该会在左侧看到一长排蓝色自行车。 前进。 在下一个路口右转。 一开始你应该在一辆白色巴士后面。 向前走可以经过它和一辆红/蓝巴士。 在下一个路口，再次右转。 您应该在一辆带有蓝色字样的白色卡车后面然后路边停车。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一长排蓝色自行车在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一辆白色巴士在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个白色卡车在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 您从高架公路开始。 调整方向，使高楼在您的右侧，较小的建筑物和水在您的左侧。 有一座大桥横跨在你前面的道路上。 移动直到到达桥的正下方。
+observation: 一个高楼在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个高楼在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个较小的建筑物在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 有一座大桥在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 前面路口右转弯，以便您随车流行驶。 在第二个路口左转（施工后）。 左边有一条绿色步道。 在下一个路口，停车。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一条绿色步道在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 在那个十字路口左转。 直走到下一个路口。 左转。 路的右侧有一座建筑物，上面有艺术风格的绘画。 沿着这个街区走不到一半。 您几乎会到达左侧的红色车库门。 在那之前停下来。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一座建筑物在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个左侧的红色车库门在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 跟随车流，靠左行驶，在到达隧道入口之前停下来。 
+observation: 一个隧道入口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 绿色商业就在您的左边，直走穿过这个十字路口。 在下一个十字路口，您会在左侧看到一个高大的绿色建筑围栏。 您需要在这里右转。 在下一个路口右转。 您会在右侧看到一些霓虹绿色垃圾箱。 直行穿过第一个红绿灯，并在下一个红绿灯处右转。 您的左边应该有一家带有亮绿色标志的企业。 在您右边的街区上有一家公司，其徽标中有一个风车。
+observation: 一个隧道入口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 站好，让您随着车流移动，进入那个附近的十字路口。 在路口右转。 继续前往下一个路口并再次右转。 移动到下一个路口并再次右转。 就在下一个十字路口之前停车，您左边的拐角处有一个绿色垃圾桶。
+observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个绿色垃圾桶在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 转弯并面向迎面驶来的车辆（绿色货车应位于您的右侧）。 穿过右侧的橙色和白色障碍物前往下一个十字路口，在十字路口右转，右侧应该有更多橙色和白色的障碍物。 穿过第一个路口并在第二个路口右转。 完成后，您应该会看到右侧有绿色栏杆然后停车。
+observation: 一个绿色货车在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 橙色和白色障碍物在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 橙色和白色障碍物在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个绿色栏杆在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 站好，面向繁忙的十字路口。 向前进入其中（右侧有带有柱子的大型结构）。 直行穿过该交叉路口并继续直行。然后穿过一个四向交叉路口。 在第二个四向路口右转。
+observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个柱子在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个交叉路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个交叉路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个交叉路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。"}
+
+{"navigation_text": "instructions: 您会面对一排蓝色租赁自行车位于街道的左侧。 穿过第一个路口，在第二个路口左转。 转弯后左侧会有一个长长的红色遮阳篷。 在这条路的第一个路口，您将再左转。 在下一个路口再次左转。 右侧人行道上的绿色杆子上锁着一辆自行车在此处停车。
+observation: 一排蓝色租赁自行车在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个长长的红色遮阳篷在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一辆自行车在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。
+
+{"navigation_text": "instructions: 当你开始时，你几乎站在一个小十字路口。 右转弯，在下一个十字路口直行。 走很短的街区到丁字路口，然后右转。 您的右侧有一排交通锥，左侧有一个公园就停车。
+observation: 十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action：前进。observation: 丁字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action：右转。observation: 一排交通锥在您的右侧; thought: 根据对指令和观察的分析，我应该执行action：停车。"}
+
+{"navigation_text": "instructions: 沿着交通行驶，脚手架位于左侧，然后在第一个路口右转。 右边有一座白色建筑物在您面前，继续向前，在十字路口右转。 向右转后，继续沿着这条街行驶，在路口右转，右侧有脚手架停车。
+observation: 脚手架在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一座白色建筑物在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个脚手架在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 转身并调整自己，使红色遮阳篷位于您的左侧。 沿着这条街行驶，直到到达下一个路口右转，就在地下通道之前停车 。
+observation: 一个红色遮阳篷在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个地下通道在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 调整好位置，使马头标志位于您的右侧，然后向前到达十字路口右转。 直行穿过第一个仅右转的转弯，也直行穿过第二个转弯，然后在路口左转。 您将直接穿过下一个十字路口，并在碰到左侧的食品卡时停下来。
+observation: 一个马头标志在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 直行。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 直行。observation: 一个食品卡在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 您好，请面向车流方向。 你的左侧会出现橙色和白色的圆锥体。 继续沿着这条路一直走，直到到达十字路口。 当您进入十字路口中间时，您需要转向面向右侧。
+observation: 橙色和白色的圆锥体在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。"}
+
+{"navigation_text": "instructions: 顺着车流，在第一个路口右转。 在下一个路口再次右转。 在下一个路口再次右转。 在下一个路口左转并停车。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 调整位置，使最近的十字路口位于您前面，然后继续前进。 当你走到十字路口时，直走，你的左边会有一个绿色的遮阳篷，右边有一个艺术品。 继续前行，然后在下一个路口右转。 直走，在下一个路口右转。 你的右边应该有一家红色商店，然后停下来。
+observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个绿色的遮阳篷在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一家红色商店在您的右边; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 转弯，让红色吉普车出现在您左侧。 您必须稍靠右行驶，这样您才能沿着这条街的右侧前进。 向前走，走到紫色立交桥下面并停车。
+observation: 红色吉普车在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 紫色立交桥在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 跟随车流并在第一个路口右转。 继续向前，在下一个路口右转； 您的左边将会有一排蓝色自行车。 向前走，在下一个路口右转。 继续往前走，你会看到左边有一个市场然后停车。
+observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一排蓝色自行车在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个市场在您的左边; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 转身，使您面向与街道上的汽车相同的方向。 树木和花朵应该在你的右边。 向前行驶并停在丁字路口中间，然后向右转。 您应该面向与汽车相同的方向，并且应该在您的右侧看到一个带有黑色简笔画的黄色菱形标志。 沿着这条街走，保持红色遮阳篷在你的右边。 当您到达一个小十字路口时停下来。
+observation: 一些树和花在您的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个带有黑色简笔画的黄色菱形标志在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个红色遮阳篷在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 沿着单行道顺着车流在路口右转弯，左边是一栋奶油色的小建筑，里面有一把红色的椅子，继续到十字路口左转，右边会是一排蓝色自行车。 在下一个路口左转，继续到下一个路口，一直直走，当你看到右边有一家商店，招牌上有一个红心然后停车.
+observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一栋奶油色的小建筑在你的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一排蓝色自行车在你的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 有一家商店在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 左边有高大的大门，面向十字路口，直接穿过这个十字路口。 您的左侧将有一个蓝色的自行车租赁架。 直走通过接下来的两个路口。 看到您右侧停放的灰色汽车后停车。
+observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个蓝色的自行车租赁架在你的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个停放的灰色汽车在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 你好。 请根据交通流量确定方向。 你的左边会有一座带有红色遮阳篷的长建筑。 在您的右侧，您会看到一座带有许多红色装饰的白色建筑。 沿着这条路直走。 继续直行穿过第一个路口。 直行直至到达第二个路口。 你的左边有一座高大的红砖建筑。 继续前进当在你的右侧有一座银色的建筑就停车。
+observation: 一座带有红色遮阳篷的长建筑在你的左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一座带有许多红色装饰的白色建筑在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一座高大的红砖建筑在你的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 有一座银色的建筑在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 在面向十字路口的单向街道上确定自己的交通方向。 进入十字路口并左转。 在下一个路口左转。 在下一个路口再次左转。 您的右侧将有一个黑色锻铁栅栏，继续前进当你左侧将有一个儿童游乐场就停车。
+observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个黑色锻铁栅栏在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个儿童游乐场在你的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 面对封锁的道路。 在第一个路口左转。 您的右侧将有一个停车场。 经过后左转。 在你的左边你应该看到一个看起来像灯塔的东西。 当你在它旁边时停下来。
+observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个停车场在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个灯塔在你的左侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 从起点出发，您会在右侧看到一辆银色货车。 直走，经过右侧的拖车，直到看到红绿灯。 在这个路口右转。 继续经过右侧的绿色脚手架，直到到达带有人行横道的路灯处。
+observation: 一辆银色货车在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一辆拖车在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个红绿灯在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个绿色脚手架在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个人行横道在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 请调整方向，背对十字路口。 您的左边是一排带有红色和白色灯光的白色和蓝色警车。 当在你的右边是一座红砖建筑，有两条棕褐色条纹，有窗户就停车。
+observation: 一个十字路口在你的后边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一排带有红色和白色灯光的白色和蓝色警车在你的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一座红砖建筑在你的右边; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 离开四路交叉口，沿着前面的单行道行驶。 你的右边会出现一座色彩缤纷的建筑。 走到街区的尽头。 右转。 左角有一家商店，有黑色遮阳篷和彩色风车符号。 继续沿着这条路走，经过您到达的第一个十字路口就停车。
+observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一座色彩缤纷的建筑在你的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一家商店在你左侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 跟随交通到达红绿灯并向右转。 到下一个再向右走。 经过右边的脚手架，但在经过橙色锥体后面的蓝色垃圾箱之前停车。
+observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个脚手架在你的右边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个蓝色垃圾箱在你的前面; thought: 根据对指令和观察的分析，我应该执行action：停车。"}
+
+{"navigation_text": "instructions: 你好。 请面向车流调整方向。 您的左边将有带有绿色遮阳篷的脚手架。 右侧排列着一些瘦弱的树木。 直走第一个路口。 直接穿过这个路口在下个路口前停车。
+observation: 带有绿色遮阳篷的脚手架在你的左边; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一些瘦弱的树木在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions: 让自己与这条街上的车流保持一致。 忽略第一个路口，在第二个路口左转。 您会在这条单向小街上的右侧停车场入口处看到一些脚手架，以确保您走在正确的道路上。 走到街道尽头，然后停车。
+observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个停车场在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
+
+{"navigation_text": "instructions:转动自己，使您面向您所在车道上的交通行驶方向。您的右侧将有一个黑色的铁栅栏。 直走通过接下来的两个路口。 看到您右侧停放的红色汽车后停车。
+observation: 一个黑色的铁栅栏在你的右侧; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个十字路口在你的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一个红色汽车在你的右侧; thought: 根据对指令和观察的分析，我应该执行action：停车。"}
+
+{"navigation_text": "instructions: 调整好自己的方向，以便随车流移动。 向前行驶到第一个十字路口，左侧有一座色黑色的建筑，然后右转。 到达下一个十字路口，然后再左转。 现在，您的右侧应该有一个公园，然后停车。
+observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 前进。observation: 一座黑色的建筑在您的左侧; thought: 根据对指令和观察的分析，我应该执行action： 右转。observation: 一个十字路口在您的前面; thought: 根据对指令和观察的分析，我应该执行action： 左转。observation: 一个公园在您的右侧; thought: 根据对指令和观察的分析，我应该执行action： 停车。"}
 
